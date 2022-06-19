@@ -2,7 +2,7 @@
   "name": "unity_node_multiplayer_game_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/lucas-aquino/unity_node_multiplayer_game_backend#readme",
   "dependencies": {
+    "nodemon": "^2.0.16",
     "shortid": "^2.2.16",
-    "socket.io": "^4.5.1"
+    "socket.io": "^2.1.1"
   }
 }
